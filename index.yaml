@@ -18,7 +18,7 @@ entries:
     name: kube-cost-metrics-collector
     type: application
     urls:
-    - https://github.com/cloudcose/helm-charts/releases/download/kube-cost-metrics-collector-0.1.2/kube-cost-metrics-collector-0.1.2.tgz
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-cost-metrics-collector-0.1.2/kube-cost-metrics-collector-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     created: "2025-03-17T11:54:50Z"
@@ -37,7 +37,7 @@ entries:
     name: kube-cost-metrics-collector
     type: application
     urls:
-    - https://github.com/cloudcose/helm-charts/releases/download/kube-cost-metrics-collector-0.1.1/kube-cost-metrics-collector-0.1.1.tgz
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-cost-metrics-collector-0.1.1/kube-cost-metrics-collector-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     created: "2025-03-17T11:54:50Z"
@@ -59,7 +59,7 @@ entries:
     name: kube-cost-metrics-collector
     type: application
     urls:
-    - https://github.com/cloudcose/helm-charts/releases/download/kube-cost-metrics-collector-0.1.0/kube-cost-metrics-collector-0.1.0.tgz
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-cost-metrics-collector-0.1.0/kube-cost-metrics-collector-0.1.0.tgz
     version: 0.1.0
   kube-service-selectors:
   - apiVersion: v2
@@ -71,7 +71,7 @@ entries:
     name: kube-service-selectors
     type: application
     urls:
-    - https://github.com/cloudcose/helm-charts/releases/download/kube-service-selectors-1.0.2/kube-service-selectors-1.0.2.tgz
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-1.0.2/kube-service-selectors-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v2
     created: "2025-03-17T11:54:50Z"
@@ -82,6 +82,6 @@ entries:
     name: kube-service-selectors
     type: application
     urls:
-    - https://github.com/cloudcose/helm-charts/releases/download/kube-service-selectors-1.0.1/kube-service-selectors-1.0.1.tgz
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-1.0.1/kube-service-selectors-1.0.1.tgz
     version: 1.0.1
 generated: "2025-03-17T11:54:50Z"
