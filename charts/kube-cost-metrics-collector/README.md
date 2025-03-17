@@ -7,7 +7,7 @@ Components
   - [kube-state-metrics](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-state-metrics)
   - [prometheus-node-exporter](https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-node-exporter)
   - [prometheus-pushgateway](https://github.com/walker-tom/helm-charts/tree/main/charts/prometheus-pushgateway)
-- [kube-service-selectors](https://github.com/cloudcose/helm-charts/tree/main/charts/kube-service-selectors)
+- [kube-service-selectors](https://github.com/bwsolucoes/helm-charts/tree/main/charts/kube-service-selectors)
 
 ## Prerequisites
 Prerequisites are based on dependencies:
@@ -28,7 +28,7 @@ helm install kube-cost-metrics-collector cloudcose/kube-cost-metrics-collector \
 --create-namespace
 ```
 
-*Override **cloudcose** remote write target to send metrics to [open source CloudCoSe](https://github.com/cloudcose/cloudcose)*
+*Override **cloudcose** remote write target to send metrics to [open source CloudCoSe](https://github.com/bwsolucoes/cloudcose)*
 ```bash
 helm install kube-cost-metrics-collector cloudcose/kube-cost-metrics-collector \
 --set prometheus.server.dataSourceId=<data-source-id> \
