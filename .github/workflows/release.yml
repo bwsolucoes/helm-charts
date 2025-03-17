@@ -29,7 +29,7 @@ jobs:
       - name: Add Helm Repositories
         run: |
           helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
-          helm repo add cloudcose https://cloudcose.github.io/helm-charts
+          helm repo add bwsolucoes https://bwsolucoes.github.io/helm-charts
 
       - name: Update Helm Repos
         run: helm repo update
