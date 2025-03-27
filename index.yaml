@@ -9,7 +9,7 @@ entries:
       version: 25.18.0
     - name: kube-service-selectors
       repository: https://bwsolucoes.github.io/helm-charts
-      version: 1.0.2
+      version: 1.0.3
     description: CloudCoSe Kubernetes metrics collector.
     digest: a140effb795f1a24495414a170f548e6bfb17a27204082f82a038972464b518e
     maintainers:
@@ -28,7 +28,7 @@ entries:
       version: 25.18.0
     - name: kube-service-selectors
       repository: https://bwsolucoes.github.io/helm-charts
-      version: 1.0.2
+      version: 1.0.3
     description: CloudCoSe Kubernetes metrics collector.
     digest: c8697e1231607ffa2a24e15e7794d1fdb561b195e7829432eab93963ce474317
     maintainers:
@@ -109,8 +109,8 @@ entries:
     name: kube-service-selectors
     type: application
     urls:
-    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-1.0.2/kube-service-selectors-1.0.2.tgz
-    version: 1.0.2
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-1.0.3/kube-service-selectors-1.0.3.tgz
+    version: 1.0.3
   - apiVersion: v2
     created: "2025-03-17T11:54:50Z"
     digest: cbc855f59f826d505626b322210f26a3042f4a0d8e0d5d5403654342ecb02486
