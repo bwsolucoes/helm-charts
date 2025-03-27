@@ -6,7 +6,7 @@ entries:
     dependencies:
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
-      version: 17.0.2
+      version: 25.18.0
     - name: kube-service-selectors
       repository: https://bwsolucoes.github.io/helm-charts
       version: 1.0.2
@@ -25,7 +25,7 @@ entries:
     dependencies:
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
-      version: 17.0.2
+      version: 25.18.0
     - name: kube-service-selectors
       repository: https://bwsolucoes.github.io/helm-charts
       version: 1.0.2
@@ -44,7 +44,7 @@ entries:
     dependencies:
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
-      version: 17.0.2
+      version: 25.18.0
     - name: kube-service-selectors
       repository: https://bwsolucoes.github.io/helm-charts
       version: 1.0.1
@@ -63,7 +63,7 @@ entries:
     dependencies:
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
-      version: 17.0.2
+      version: 25.18.0
     - name: kube-service-selectors
       repository: https://bwsolucoes.github.io/helm-charts
       version: 1.0.1
@@ -82,10 +82,10 @@ entries:
     dependencies:
     - name: kube-state-metrics
       repository: https://prometheus-community.github.io/helm-charts
-      version: 4.9.1
+      version: 5.31.0
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
-      version: 15.10.0
+      version: 25.18.0
     - name: kube-service-selectors
       repository: https://bwsolucoes.github.io/helm-charts
       version: 1.0.1
