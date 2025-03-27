@@ -4,10 +4,10 @@ prometheusScrape: true
 replicaCount: 1
 
 image:
-  repository: cloudcose/kube-service-selectors
+  repository: public.ecr.aws/cloudcose/kube-service-selectors
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.3"
+  tag: "0.0.1"
 
 imagePullSecrets: []
 
