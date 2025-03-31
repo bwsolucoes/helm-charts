@@ -1,1 +1,28 @@
-# helm repo
+apiVersion: v1
+entries:
+  kube-cost-metrics-collector:
+  - apiVersion: v2
+    created: "2025-03-31T14:21:46.294366-03:00"
+    description: CloudCoSe Kubernetes metrics collector.
+    digest: a126545d3ea7e0981a45b77f0370b2d0e6d9524eeeed80cfa8a53326bb8a35ff
+    maintainers:
+    - email: support@cloudcose.com
+      name: cloudcose
+    name: kube-cost-metrics-collector
+    type: application
+    urls:
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-cost-metrics-collector-0.0.1.tgz
+    version: 0.0.1
+  kube-service-selectors:
+  - apiVersion: v2
+    created: "2025-03-31T14:21:46.294957-03:00"
+    digest: 8505182378094e94e4776750c066f3778ac714f572c058afddf7ca5c13774034
+    maintainers:
+    - email: support@cloudcose.com
+      name: cloudcose
+    name: kube-service-selectors
+    type: application
+    urls:
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-0.0.1.tgz
+    version: 0.0.1
+generated: "2025-03-31T14:21:46.2914428-03:00"
