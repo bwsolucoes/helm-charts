@@ -50,6 +50,6 @@ entries:
     name: kube-service-selectors
     type: application
     urls:
-    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-0.0.1.tgz
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-0.0.1/kube-service-selectors-0.0.1.tgz
     version: 0.0.1
 generated: "2025-03-31T17:34:01.018912457Z"
