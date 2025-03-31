@@ -1,0 +1,7 @@
+apiVersion: v2
+name: kube-service-selectors
+type: application
+version: 0.0.1
+maintainers:
+  - name: cloudcose
+    email: support@cloudcose.com
