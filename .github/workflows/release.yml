@@ -34,8 +34,8 @@ jobs:
       - name: Update Helm Repos
         run: helm repo update
 
-      - name: Update chart dependencies
-        run: helm dependency update charts/kube-cost-metrics-collector
+      # - name: Update chart dependencies
+      #   run: helm dependency update charts/kube-cost-metrics-collector
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.0
