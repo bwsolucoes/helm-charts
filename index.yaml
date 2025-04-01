@@ -2,6 +2,25 @@ apiVersion: v1
 entries:
   kube-cost-metrics-collector:
   - apiVersion: v2
+    created: "2025-04-01T14:30:21.003477154Z"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.18.0
+    - name: kube-service-selectors
+      repository: https://bwsolucoes.github.io/helm-charts
+      version: 0.0.2
+    description: CloudCoSe Kubernetes metrics collector.
+    digest: d83b031400b7100a01f89d4d145b77e686641ba1f2d48d15d9fc0e498ef10f9c
+    maintainers:
+    - email: support@cloudcose.com
+      name: cloudcose
+    name: kube-cost-metrics-collector
+    type: application
+    urls:
+    - https://github.com/bwsolucoes/helm-charts/releases/download/kube-cost-metrics-collector-0.0.4/kube-cost-metrics-collector-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
     created: "2025-04-01T13:28:19.48987542Z"
     dependencies:
     - name: prometheus
@@ -71,4 +90,4 @@ entries:
     urls:
     - https://github.com/bwsolucoes/helm-charts/releases/download/kube-service-selectors-0.0.1/kube-service-selectors-0.0.1.tgz
     version: 0.0.1
-generated: "2025-04-01T13:28:19.489898794Z"
+generated: "2025-04-01T14:30:21.003493885Z"
