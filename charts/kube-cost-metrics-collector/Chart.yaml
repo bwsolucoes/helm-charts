@@ -1,6 +1,6 @@
 apiVersion: v2
 name: kube-cost-metrics-collector
-version: 0.0.4
+version: 0.0.5
 description: CloudCoSe Kubernetes metrics collector.
 type: application
 dependencies:

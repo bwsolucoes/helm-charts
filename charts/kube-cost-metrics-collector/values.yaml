@@ -36,6 +36,7 @@ prometheus:
     enabled: false
 
   server:
+    enabled: true
     remote_write:
     # CloudCoSe target skeleton. Target also includes tls and auth settings, extra headers and so on
     - url: https://app.cloudcose.com/storage/api/v2/write
