@@ -50,7 +50,7 @@ prometheus:
     # Remote write CloudCoSe target tls CA certificate file
     caFile:
 
-    configMapOverrideName: prometheus-server-config
+    configMapOverrideName: ""
     persistentVolume:
       enabled: false
     defaultFlagsOverride:
